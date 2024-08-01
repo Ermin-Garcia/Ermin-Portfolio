@@ -34,7 +34,7 @@ li {
 .navbar-logo img { 
     width: 2rem; 
     height: 2rem;
-    border-radius: 50px 50px 0;
+    border-radius: 50% 50% 0;
     box-shadow: 2px 2px 5px #2c2c2c;
 }
 .navbar-logo a {
@@ -113,10 +113,12 @@ li {
 }
 .header-logo img {
     position: absolute;
+    width: 7rem;
+    height: 7rem;
     top: 7rem;
     right: 7rem;
     box-shadow: 3px 3px 5px #2c2c2c;
-    border-radius: 50px 50px 0;
+    border-radius: 50% 50% 0;
     transform: rotate(-45deg);
     opacity: 0;
     animation: logo 1s ease forwards; 
