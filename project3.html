@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="icon" href="images/main/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="product-header">           
+        <nav class="navbar"> 
+            <ul >
+                <li class="product-header-logo">
+                    <img src="images/project3/store.png" width="25" alt="Baseball Cap">
+                    <span>Store</span>
+                </li>
+            </ul>             
+            <ul class="product-link">
+                <li class="shoes">Shoes</li>
+                <li class="jacket">Jacket</li>
+                <li class="main-logo">
+                    <a href="index.html">
+                    <img src="images/main/logo.png" width="25" alt="EG logo">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+    <main> 
+        <section class="product-section">
+            <h2>New Arrivals</h2> 
+            <article class="product-content con">                       
+                <h3>Try our Product</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Molestias numquam veniam 
+                    earum quas assumenda perspiciatis, labore 
+                    quos magnam nostrum cum exercitationem, 
+                    reprehenderit consequuntur. Nulla corrupti, 
+                    quaerat repellat culpa officiis est!
+                </p>
+                <button id="buy-btn">Buy Now</button>
+            </article>
+            <article class="product-img img-con con">
+                <div class="price-content">
+                    <h3 class="color">Shoes</h3>
+                    <h4 class="price">$ Price</h4>
+                </div>                
+                <img id="big-img" src="images/project3/shoe1.jpg" width="250" height="300" alt="">            
+                <div class="product-small-img">                                                        
+                    <img class="small-img sm" src="images/project3/shoe1.jpg" width="50" alt="">                                       
+                    <img class="small-img1 sm" src="images/project3/shoe2.jpg" width="50" alt="">                    
+                    <img class="small-img2 sm" src="images/project3/shoe3.jpg" width="50" alt="">                                                           
+                </div>
+            </article> 
+            <article class="product1-img img-con con">
+                <div class="price1-content">
+                    <h3 class="color1">Jacket</h3>
+                    <h4 class="price1">$ Price</h4> 
+                </div>                             
+                <img id="big1-img" src="images/project3/jacket1.jpg" width="250" height="300" alt=""> 
+                <div class="product-small-img">                                                        
+                    <img class="small1-img sm" src="images/project3/jacket1.jpg" width="50" alt="">                                       
+                    <img class="small2-img sm" src="images/project3/jacket2.jpg" width="50" alt="">                    
+                    <img class="small3-img sm" src="images/project3/jacket3.jpg" width="50" alt="">                                                           
+                </div>                           
+            </article>                                                    
+        </section>
+        <form action="#" class="form">           
+            <h3>Payment</h3>
+            <label for="name">Full Name</label>
+            <input class="contact-input" type="text" id="name" placeholder="Ermin Garcia">
+            <label for="address">Address</label>
+            <input class="contact-input" type="text" id="address" placeholder="San Antonio Cavite">
+            <label for="email">Email</label>
+            <input class="contact-input" type="text" id="email" placeholder="ermingarcia1212@gmail.com">
+            <fieldset class="card-container">
+                <legend>Card Information</legend>
+                <div class="card-content">
+                    <img src="images/project3/master.png" width="50" alt="">
+                    <img src="images/project3/visa.png" width="50" alt=""> 
+                    <div class="password">
+                        <label for="password">Card Number</label>                                
+                        <input class="card-input" type="password" id="password" placeholder="Card Number"> 
+                    </div>                   
+                </div>
+                <div class="card-information">
+                    <div class="month">
+                        <label for="month">Month</label>
+                        <input class="card-input" type="text" id="month" placeholder="MM">
+                    </div>
+                    <div class="year">
+                        <label for="year">Year</label>
+                        <input class="card-input" type="text" id="year" placeholder="YYYY">
+                    </div>
+                    <div class="cvv">
+                        <label for="verification">Cvv</label>
+                        <input class="card-input" type="text" id="verification" placeholder="CVV">
+                    </div>                   
+                </div> 
+                <div class="payment-btn">
+                    <button class="check-out-btn">Check Out</button>
+                    <button class="exit-btn">X</button>                    
+                </div>                                         
+            </fieldset>                                               
+        </form>
+    </main>   
+    <script src="script3.js"></script>   
+</body>
+</html>
